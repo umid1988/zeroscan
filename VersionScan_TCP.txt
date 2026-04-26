@@ -1,0 +1,44 @@
+# Nmap 7.99 scan initiated Sun Apr 26 12:22:44 2026 as: /usr/lib/nmap/nmap --privileged -Pn -n -sV -p 2024,4000,5432,41669,48984,50934 -oN /home/umid/black_python/zeroscan/VersionScan_TCP.txt 127.0.0.1
+Nmap scan report for 127.0.0.1
+Host is up (0.000036s latency).
+
+PORT      STATE  SERVICE    VERSION
+2024/tcp  open   http       Uvicorn
+4000/tcp  open   http       Uvicorn
+5432/tcp  open   postgresql PostgreSQL DB 17.0 - 17.8
+41669/tcp open   http       Golang net/http server
+48984/tcp closed unknown
+50934/tcp closed unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port41669-TCP:V=7.99%I=7%D=4/26%Time=69EE3BDA%P=x86_64-pc-linux-gnu%r(G
+SF:enericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20
+SF:text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\
+SF:x20Request")%r(GetRequest,8F,"HTTP/1\.0\x20404\x20Not\x20Found\r\nDate:
+SF:\x20Sun,\x2026\x20Apr\x202026\x2016:22:50\x20GMT\r\nContent-Length:\x20
+SF:19\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\n\r\n404:\x20Page
+SF:\x20Not\x20Found")%r(HTTPOptions,8F,"HTTP/1\.0\x20404\x20Not\x20Found\r
+SF:\nDate:\x20Sun,\x2026\x20Apr\x202026\x2016:22:50\x20GMT\r\nContent-Leng
+SF:th:\x2019\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\n\r\n404:\
+SF:x20Page\x20Not\x20Found")%r(RTSPRequest,67,"HTTP/1\.1\x20400\x20Bad\x20
+SF:Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:
+SF:\x20close\r\n\r\n400\x20Bad\x20Request")%r(Help,67,"HTTP/1\.1\x20400\x2
+SF:0Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nCon
+SF:nection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(SSLSessionReq,67,"HT
+SF:TP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20cha
+SF:rset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(Fou
+SF:rOhFourRequest,8F,"HTTP/1\.0\x20404\x20Not\x20Found\r\nDate:\x20Sun,\x2
+SF:026\x20Apr\x202026\x2016:23:05\x20GMT\r\nContent-Length:\x2019\r\nConte
+SF:nt-Type:\x20text/plain;\x20charset=utf-8\r\n\r\n404:\x20Page\x20Not\x20
+SF:Found")%r(LPDString,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-T
+SF:ype:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400
+SF:\x20Bad\x20Request")%r(SIPOptions,67,"HTTP/1\.1\x20400\x20Bad\x20Reques
+SF:t\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20cl
+SF:ose\r\n\r\n400\x20Bad\x20Request")%r(Socks5,67,"HTTP/1\.1\x20400\x20Bad
+SF:\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnect
+SF:ion:\x20close\r\n\r\n400\x20Bad\x20Request")%r(OfficeScan,A3,"HTTP/1\.1
+SF:\x20400\x20Bad\x20Request:\x20missing\x20required\x20Host\x20header\r\n
+SF:Content-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r
+SF:\n\r\n400\x20Bad\x20Request:\x20missing\x20required\x20Host\x20header");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Apr 26 12:23:11 2026 -- 1 IP address (1 host up) scanned in 26.65 seconds
