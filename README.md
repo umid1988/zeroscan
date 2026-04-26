@@ -2,10 +2,10 @@
 
 > A fast, intelligent network scanner with a beautiful CLI dashboard — built for penetration testers and CTF players.
 
-```
-  <img width="737" height="219" alt="image" src="https://github.com/user-attachments/assets/fba16e3a-8711-4f2b-8fed-b281c9e1de9f" />
+ 
+<img width="1193" height="791" alt="image" src="https://github.com/user-attachments/assets/18d978d2-a435-4cfd-9c46-6f35d37ce6e4" />
 
-```
+
 
 ---
 
